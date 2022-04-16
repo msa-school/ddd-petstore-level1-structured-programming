@@ -73,10 +73,13 @@ pet is sleeping
 appearance=0
 energy=3
 ```
-- 정답:  
+- 정답: https://github.com/msa-school/ddd-petstore-level1-single-domain-model/blob/main/src/main/java/com/demo/petstore/PetstoreApplication.java
 
 ## 해석
-- 각 메서드의 구현체 내부는 if~then~else 를 통해서 각 type 별 로직을 수행해야 한다.
+- 각 메서드의 구현체 내부는 if-then-else 를 통해서 각 type 별 로직을 수행해야 한다.
 - 평가: 구조적 프로그래밍을 통한 Dog, Cat 의 구현은 로직이 분산되는 문제가 존재한다. 
 - 각 type 별 해당 로직을 잘 이해하는 전문가들 (Cat을 잘 아는 전문가와 Dog 를 잘 아는 전문가) 이 하나의 파일 - PetstoreApplication.java 내에서 자신의 로직 부분을 찾아서 다른 전문가의 작업영역과 혼재되지 않도록 작성해야 한다. 
+
+## 다음
+- Polymorphism 을 이용한 로직의 응집도와 결합도 관리 (응집도는 높히고, 결합도는 낮추는)
 
