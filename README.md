@@ -80,5 +80,6 @@ energy=3
 - 각 type 별 해당 로직을 잘 이해하는 전문가들 (Cat을 잘 아는 전문가와 Dog 를 잘 아는 전문가) 이 하나의 파일 - PetstoreApplication.java 내에서 자신의 로직 부분을 찾아서 다른 전문가의 작업영역과 혼재되지 않도록 작성해야 한다. 
 
 ## 다음
-- Polymorphism 을 이용한 로직의 응집도와 결합도 관리 (응집도는 높히고, 결합도는 낮추는)
+- Separation Of Concerns: UI (System.out.println)과 비즈니스 로직(Pet 동작)의 분리
+- https://github.com/msa-school/ddd-petstore-level7-big-ball-of-mud
 
