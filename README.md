@@ -81,5 +81,5 @@ energy=3
 
 ## 다음
 - Separation Of Concerns: UI (System.out.println)과 비즈니스 로직(Pet 동작)의 분리
-- https://github.com/msa-school/ddd-petstore-level7-big-ball-of-mud
+- https://github.com/msa-school/ddd-petstore-level2-oop-soc
 
