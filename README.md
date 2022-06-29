@@ -61,14 +61,9 @@ public class Pet {
 
 ## 문제: 다음과 같은 출력결과를 얻기위하여 PetstoreApplication.java 에 speak, eat, groom 메서드를 구현하시오:
 ```
-pet is eating
-멍멍
-pet is eating
-pet is eating
 멍멍
 appearance=0
 energy=2
-pet is sleeping
 appearance=0
 energy=3
 ```
