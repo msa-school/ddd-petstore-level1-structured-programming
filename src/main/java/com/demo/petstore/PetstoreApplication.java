@@ -29,7 +29,7 @@ public class PetstoreApplication {
 	}
 
 	public static void speak(Pet pet){
-		System.out.println("pet is eating");
+		System.out.println("pet is speaking");
 
 		if("Dog".equals(pet.type))
 			System.out.println("멍멍");
